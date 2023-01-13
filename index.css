@@ -341,4 +341,87 @@
             center center / cover no-repeat;
             width: 100%;
             height: 700px;
+            display: grid;
+            grid-template-columns: 330px;
+            grid-template-rows: 229px;
+}
+
+.card {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.9;
+    mix-blend-mode: normal;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.s3-p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-left: 30px;
+}
+
+.s3-p2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.s3-p3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    width: 508px;
+    height: 78px;
+    margin-left: 30px;
+}
+
+.s3-btn {
+    width: 228px;
+    height: 63px;
+    background-color: #5474fd;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 30px;
+    margin-top: 8%;
+}
+
+.section4 {
+    background: url(./images/section4.png)
+    center center / cover no-repeat;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 52%;
+    grid-template-rows: 32%;
+}
+
+.card2 {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.9;
+    mix-blend-mode: normal;
+    grid-column: 2;
+    grid-row: 2;
 }
